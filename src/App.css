@@ -1,0 +1,58 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(145deg, #e0e0e0, #f5f5f5);
+  height: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 2rem;
+  border-radius: 20px; 
+  box-shadow: 4px 4px 10px #c0c0c0, -4px -4px 10px #ffffff; 
+}
+
+
+.text-area {
+  width: 90%;
+  max-width: 600px;
+  height: 250px;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  border: none;
+  box-shadow: inset 8px 8px 16px #cfcfcf,
+              inset -8px -8px 16px #ffffff;
+  resize: none;
+  margin-bottom: 2rem;
+  background-color: #f0f0f0;
+}
+
+.get-audio-button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(145deg, #b0eacb, #d7ffdc);
+  box-shadow: 6px 6px 12px #b0b0b0,
+              -6px -6px 12px #ffffff;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.get-audio-button:hover {
+  box-shadow: inset 6px 6px 12px #a5d4b8,
+              inset -6px -6px 12px #ffffff;
+  transform: translateY(-2px);
+}
